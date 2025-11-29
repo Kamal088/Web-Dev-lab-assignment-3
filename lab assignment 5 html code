@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnHub - Online Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo">
+                <h2>LearnHub</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <button class="btn-login">Login</button>
+                <button class="btn-signup">Sign Up</button>
+            </div>
+            <div class="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Unlock Your Potential with Online Learning</h1>
+                    <p class="hero-description">
+                        Join thousands of learners and access top-rated courses from expert instructors. 
+                        Learn anytime, anywhere at your own pace.
+                    </p>
+                    <div class="search-box">
+                        <input type="text" placeholder="What do you want to learn?" class="search-input">
+                        <button class="search-btn">Find Courses</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section id="categories" class="categories">
+            <div class="container">
+                <h2 class="section-title">Popular Categories</h2>
+                <div class="categories-grid">
+                    <div class="category-card">
+                        <h3>Development</h3>
+                        <p>Web, Mobile, Game Development</p>
+                    </div>
+                    <div class="category-card">
+                        <h3>Design</h3>
+                        <p>UI/UX, Graphic, 3D Design</p>
+                    </div>
+                    <div class="category-card">
+                        <h3>Business</h3>
+                        <p>Marketing, Management, Finance</p>
+                    </div>
+                    <div class="category-card">
+                        <h3>Languages</h3>
+                        <p>English, Spanish, French, German</p>
+                    </div>
+                    <div class="category-card">
+                        <h3>Academics</h3>
+                        <p>Science, Math, History, Literature</p>
+                    </div>
+                    <div class="category-card">
+                        <h3>Music</h3>
+                        <p>Instruments, Production, Theory</p>
+                    </div>
+                    <div class="category-card">
+                        <h3>Lifestyle</h3>
+                        <p>Health, Photography, Cooking</p>
+                    </div>
+                    <div class="category-card">
+                        <h3>Science</h3>
+                        <p>Physics, Chemistry, Biology</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Courses Section -->
+        <section id="courses" class="courses">
+            <div class="container">
+                <h2 class="section-title">Featured Courses</h2>
+                <div class="courses-grid">
+                    <article class="course-card">
+                        <div class="course-image">
+                            <div class="course-badge">Bestseller</div>
+                        </div>
+                        <div class="course-content">
+                            <h3>Modern Web Development Bootcamp</h3>
+                            <p class="course-instructor">By John Smith</p>
+                            <div class="course-rating">
+                                <span class="rating">4.8</span>
+                                <span class="reviews">(2,450 reviews)</span>
+                            </div>
+                            <div class="course-features">
+                                <span class="feature">52 hours</span>
+                                <span class="feature">All levels</span>
+                                <span class="feature">Certificate</span>
+                            </div>
+                            <div class="course-price">
+                                <span class="current-price">$89.99</span>
+                                <span class="original-price">$199.99</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="course-card">
+                        <div class="course-image">
+                            <div class="course-badge">Popular</div>
+                        </div>
+                        <div class="course-content">
+                            <h3>Graphic Design Masterclass</h3>
+                            <p class="course-instructor">By Sarah Johnson</p>
+                            <div class="course-rating">
+                                <span class="rating">4.7</span>
+                                <span class="reviews">(1,890 reviews)</span>
+                            </div>
+                            <div class="course-features">
+                                <span class="feature">42 hours</span>
+                                <span class="feature">Beginner</span>
+                                <span class="feature">Certificate</span>
+                            </div>
+                            <div class="course-price">
+                                <span class="current-price">$74.99</span>
+                                <span class="original-price">$149.99</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="course-card">
+                        <div class="course-image">
+                            <div class="course-badge">New</div>
+                        </div>
+                        <div class="course-content">
+                            <h3>Business Analytics Fundamentals</h3>
+                            <p class="course-instructor">By Mike Chen</p>
+                            <div class="course-rating">
+                                <span class="rating">4.6</span>
+                                <span class="reviews">(1,235 reviews)</span>
+                            </div>
+                            <div class="course-features">
+                                <span class="feature">36 hours</span>
+                                <span class="feature">Intermediate</span>
+                                <span class="feature">Certificate</span>
+                            </div>
+                            <div class="course-price">
+                                <span class="current-price">$99.99</span>
+                                <span class="original-price">$179.99</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2 class="section-title">What Our Students Say</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"The courses on LearnHub transformed my career. The instructors are amazing and the content is up-to-date!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>Emily Rodriguez</h4>
+                            <p>Web Developer</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"I've taken multiple courses here and each one exceeded my expectations. Highly recommended!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>James Wilson</h4>
+                            <p>Graphic Designer</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"The platform is user-friendly and the support team is very responsive. Great learning experience!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>Priya Patel</h4>
+                            <p>Data Analyst</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="pricing">
+            <div class="container">
+                <h2 class="section-title">Simple, Transparent Pricing</h2>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <h3>Basic</h3>
+                        <div class="price">
+                            <span class="amount">$19</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <ul class="features-list">
+                            <li>Access to 100+ courses</li>
+                            <li>Basic support</li>
+                            <li>Certificate of completion</li>
+                            <li>Community access</li>
+                        </ul>
+                        <button class="btn-pricing">Get Started</button>
+                    </div>
+                    <div class="pricing-card featured">
+                        <div class="popular-badge">Most Popular</div>
+                        <h3>Pro</h3>
+                        <div class="price">
+                            <span class="amount">$49</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <ul class="features-list">
+                            <li>Access to all courses</li>
+                            <li>Priority support</li>
+                            <li>Professional certificate</li>
+                            <li>Downloadable resources</li>
+                            <li>1-on-1 mentorship</li>
+                        </ul>
+                        <button class="btn-pricing featured">Get Started</button>
+                    </div>
+                    <div class="pricing-card">
+                        <h3>Enterprise</h3>
+                        <div class="price">
+                            <span class="amount">$99</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <ul class="features-list">
+                            <li>Unlimited access</li>
+                            <li>24/7 dedicated support</li>
+                            <li>Custom learning paths</li>
+                            <li>Team management</li>
+                            <li>Advanced analytics</li>
+                        </ul>
+                        <button class="btn-pricing">Contact Sales</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <div class="contact-item">
+                            <strong>Email:</strong> support@learnhub.com
+                        </div>
+                        <div class="contact-item">
+                            <strong>Phone:</strong> +1 (555) 123-4567
+                        </div>
+                        <div class="contact-item">
+                            <strong>Address:</strong> 123 Learning St, Education City
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required placeholder="Tell us how we can help you" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>LearnHub</h3>
+                    <p>Empowering learners worldwide with quality education and innovative learning solutions.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 LearnHub. All rights reserved. | Kamal Prajapati - BCA Cybersecurity - KRMU</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
