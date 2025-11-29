@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamal Prajapati - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <h2>Kamal</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1 class="hero-title">Hi, I'm <span class="name-highlight">Kamal Prajapati</span></h1>
+                <div class="animated-text">
+                    <span class="role-changing">BCA Cybersecurity Student</span>
+                </div>
+                <p class="hero-description">Building secure and modern web applications with cutting-edge technologies.</p>
+                <button class="cta-button">Download Resume</button>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <img src="https://via.placeholder.com/300x300/4a90e2/ffffff?text=KP" alt="Kamal Prajapati" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a passionate BCA Cybersecurity student at KRMU University with strong interest in web development and cybersecurity. I enjoy creating responsive and secure web applications that provide great user experiences.</p>
+                    <p>Currently learning full-stack development with focus on implementing security best practices in web applications. I'm dedicated to continuous learning and staying updated with the latest technologies in cybersecurity.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>1+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>5+</h3>
+                            <p>Technologies</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>HTML5</h3>
+                    <p>Semantic markup and modern HTML features</p>
+                    <div class="skill-level">90%</div>
+                </div>
+                <div class="skill-card">
+                    <h3>CSS3</h3>
+                    <p>Flexbox, Grid, Animations & Responsive Design</p>
+                    <div class="skill-level">85%</div>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>ES6+, DOM manipulation, and basic frameworks</p>
+                    <div class="skill-level">75%</div>
+                </div>
+                <div class="skill-card">
+                    <h3>Python</h3>
+                    <p>Problem solving and backend development</p>
+                    <div class="skill-level">80%</div>
+                </div>
+                <div class="skill-card">
+                    <h3>Cybersecurity</h3>
+                    <p>Network security and web application security</p>
+                    <div class="skill-level">70%</div>
+                </div>
+                <div class="skill-card">
+                    <h3>Git & GitHub</h3>
+                    <p>Version control and collaboration</p>
+                    <div class="skill-level">85%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Library Management System</h3>
+                    <p>A Python-based CLI application for managing library operations with book tracking and borrowing system.</p>
+                    <div class="tech-tags">
+                        <span>Python</span>
+                        <span>File Handling</span>
+                    </div>
+                    <button class="project-btn">View Project</button>
+                </div>
+                <div class="project-card">
+                    <h3>Student Profile Manager</h3>
+                    <p>Command-line interface application for managing student profiles with data storage and retrieval.</p>
+                    <div class="tech-tags">
+                        <span>Python</span>
+                        <span>CLI</span>
+                    </div>
+                    <button class="project-btn">View Project</button>
+                </div>
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>Responsive personal portfolio website with modern CSS features and animations.</p>
+                    <div class="tech-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <button class="project-btn">View Project</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>Feel free to reach out for collaborations or just say hello!</p>
+                    <div class="contact-item">
+                        <strong>Email:</strong> kamalprajapati4402@gmail.com
+                    </div>
+                    <div class="contact-item">
+                        <strong>Phone:</strong> +91 7238817065
+                    </div>
+                    <div class="contact-item">
+                        <strong>Location:</strong> Delhi, India
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Kamal Prajapati. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#">GitHub</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
